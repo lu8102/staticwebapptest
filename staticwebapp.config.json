@@ -14,7 +14,7 @@
         },
         {
             "route": "/login",
-            "rewrite": "/.auth/login/aad?post_login_redirect_uri=https://proud-desert-06b1b1e10.azurestaticapps.net"
+            "rewrite": "/.auth/login/aad"
         },
         {
             "route": "/.auth/login/twitter",
