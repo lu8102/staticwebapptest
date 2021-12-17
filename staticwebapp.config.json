@@ -26,16 +26,12 @@
         },
         {
             "route": "/logout",
-            "rewrite": "/.auth/logout"
+            "redirect": "/.auth/logout"
         }
     ],
     "navigationFallback": {
         "rewrite": "/index.html",
-        "exclude": [
-            "/assets/*.{js,map}",
-            "/assets/*.{png,jpg,gif}",
-            "/assets/*"
-        ]
+        "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
     },
     "responseOverrides": {
 
